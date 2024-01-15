@@ -1,0 +1,252 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <title>Portofolio</title>
+
+</head>
+
+<body>
+    <div id="head">
+        <div class="container">
+            <nav>
+                <h2 class="logo">Revathi</h2>
+                <ul>
+                    <li><a href="#head">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#project">Projects</a></li>
+                    <li><a href="#certificate">Certifications</a></li>
+                    <li><a href="#Contact">Contact</a></li>
+                </ul>
+            </nav>
+            </nav>
+            <div class="head-text">
+                <h1>Hi, I'm <span>Revathi Bursu</span></h1>
+                <h3>Software Engineer</h3>
+            </div>
+            <div class="home-sci">
+                <a href="https://www.instagram.com/revathi__1822/"><i class='bx bxl-instagram-alt'></i></a>
+                <a href="mailto:revathibursu1822@gmail.com"><i class='bx bxl-gmail'></i></a>
+                <a href="https://www.linkedin.com/in/revathi-bursu-092b2b248/"><i
+                        class='bx bxl-linkedin-square'></i></a>
+                <a href="https://github.com/revathi-1822"><i class='bx bxl-github'></i></a>
+            </div>
+            <div class="btn">
+                <a href="./images/20JR1A0509_resume.pdf" download="myResume.pdf"><span>Resume</span><i></i></a>
+            </div>
+        </div>
+        <!---------------------------about----------------------------->
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="images/about1.jpg" />
+                    </div>
+                    <div class="about-col-2">
+                        <h1>About Me</h1><br>
+                        <p>Hello, I'm Revathi Bursu, hailing from the city of Guntur. I am currently in my final year
+                            pursuing a B.Tech in Computer Science at KKR & KSR Institute of Technology and Sciences.
+                            I've honed my skills in various programming languages including C, and Core Java. My
+                            expertise spans Data Structures and Algorithms through C. I've completed a front-end
+                            development course and I am well-versed in HTML, CSS, JavaScript, and Angular, crafting
+                            user-friendly interfaces. Additionally, my backend proficiency includes using Node.js, and
+                            I've managed databases using MySQL and MongoDB. Embracing the cloud, I have hands-on
+                            experience with Amazon Web Services. I leverage tools like GitHub and Visual Studio Code for
+                            efficient coding and collaboration. During my academic journey, I've actively contributed to
+                            projects such as Weather-App, and Portfolio demonstrating my ability to construct robust and
+                            efficient solutions.
+                        </p>
+                        <div class="titles">
+                            <p class="link1 active" onclick="opentab('skills')">Skills</p>
+                            <p class="link1" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="titles-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Programming:</span><br>C, JAVA, Data structures through C</li>&nbsp;
+                                <li><span>Skills:</span><br> Data Structures and Algorithms through C</li>&nbsp;
+                                <li><span>Frameworks:</span><br>Node.js</li>&nbsp;
+                                <li><span>Web Development:</span><br>HTML, CSS, JavaScript, Angular</li>&nbsp;
+                                <li><span>Database Language:</span><br>MySQL, MongoDB</li>&nbsp;
+                                <li><span>Tools</span><br>GitHub, Visual Studio Code, GitHub</li>&nbsp;
+                            </ul>
+                        </div>
+
+                        <div class="titles-contents" id="education">
+                            <ul>
+                                <li><span>SSC - 2018</span><br>Sri Jalagam Rama Rao Municipal Memorial High School,
+                                    Guntur, AP<br>
+                                    Cgpa - 8.8</li>
+
+                                <li><span>Intermediate - 2020</span><br>Sri Chaitanya Junior College, Guntur, AP<br>
+                                    Cgpa - 9.42</li>
+
+                                <li><span>B.Tech - 2024</span><br>KKR & KSR Institute of Technology and Sciences,
+                                    Guntur, AP<br>
+                                    Cgpa - 8.06</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-------------------------------------------------PROJECTS--------------------------------->
+        <section class="teams" id="project">
+            <div class="max-width">
+                <h2>My Projects</h2>
+                <div class="carousel owl-carousel">
+                    <div class="card">
+                        <div class="box">
+                            <img src="./images/weather-2.png" alt="img">
+                            <div class="text">Weather-App Forecast</div>
+                            <p>Weather-App Project using MEAN Stack</p>
+                            <a href="https://weather-app-details.netlify.app" class="project" target="_blank">View
+                                Project</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!------------------------------------------------Certificates----------------------------->
+        <div id="certificate">
+            <div class="container">
+                <h2>Certifications</h2>
+                <main class="grid">
+                    <article>
+                        <img src="./images/Android.png" alt="Sample photo">
+                        <div class="text">
+                            <h3>Mobile App Development</h3>
+                            <a href="./images/ANDROID WORKSHOP CERTIFICATE 2022.pdf"
+                                class="btn btn-primary btn-block">View</a>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./images/meanstack.png" class="mean-img" alt="Sample photo">
+                        <div class="text">
+                            <h3>MEAN Stack</h3>
+                            <a href="./images/MEAN_STACK_CERTIFICATE.pdf" class="btn btn-primary btn-block">View</a>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./images/devOps_certificate.png" alt="Sample photo">
+                        <div class="text">
+                            <h3>devOps Certificate</h3>
+                            <a href="./images/devOps_certificate.pdf" class="btn btn-primary btn-block">View</a>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./images/wipro_certificate.png" class="wipro-img" alt="Sample photo">
+                        <div class="text">
+                            <h3>TalentNext Certificate</h3>
+                            <a href="./images/wipro_certificate.pdf" class="btn btn-primary btn-block">View</a>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./images/python_basic certificate hackerrank.png" class="python-img"
+                            alt="Python photo">
+                        <div class="text">
+                            <h3>Python(Basic) Certificate</h3>
+                            <a href="./images/python_basic certificate hackerrank.pdf"
+                                class="btn btn-primary btn-block">View</a>
+                        </div>
+                    </article>
+                </main>
+            </div>
+        </div>
+        <!-------------------------------------------contact---------------------------------------->
+        <div id="Contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1>Contact Me</h1>
+                        <p><i class='bx bxs-send'></i>revathibursu1822@gmail.com</p>
+                        <p><i class='bx bxs-phone'></i>9505664862</p>
+                        <div class="home-sci">
+                            <a href="https://www.instagram.com/revathi__1822/"><i class='bx bxl-instagram-alt'></i></a>
+                            <a href="mailto:revathibursu1822@gmail.com"><i class='bx bxl-gmail'></i></a>
+                            <a href="https://www.linkedin.com/in/revathi-bursu-092b2b248/"><i
+                                    class='bx bxl-linkedin-square'></i></a>
+                            <a href="https://github.com/revathi-1822"><i class='bx bxl-github'></i></a>
+                        </div>
+                        <div class="btn">
+                            <a href="./images/20JR1A0509_resume.pdf"
+                                download="Resume.pdf"><span>Resume</span><i></i></a>
+                        </div>
+                    </div>
+                    <div class="contact-right">
+                        <form name="submit-to-google-sheet">
+                            <input type="text" name="Name" placeholder="Your Name.." required />
+                            <input type="email" name="Email" placeholder="Your Email.." required />
+                            <textarea type="text" name="Message" cols="30" rows="10"
+                                placeholder="Your Message.."></textarea>
+                            <button type="submit" id="btn"><span>Send</span></button>
+                        </form>
+                        <span id="msg"></span>
+                    </div>
+                </div>
+            </div>
+            <button class="back-to-top" onclick="backtotopFunction()" id="myBtn"><i
+                    class='bx bxs-chevrons-up bx-fade-up'></i></button>
+            <div class="copyright">
+                <p>Copyright &copy; Revathi Bursu | All rights reserved. </p>
+            </div>
+        </div>
+        <script>
+            let mybutton = document.getElementById("myBtn");
+
+            // When the user scrolls down 20px from the top of the document
+            window.onscroll = function () {
+                scrollFunction()
+            };
+
+            function scrollFunction() {
+                if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                    mybutton.style.display = "block";
+                } else {
+                    mybutton.style.display = "none";
+                }
+            }
+
+            // When the user clicks on the button, scroll to the top of the document
+            function backtotopFunction() {
+                document.body.scrollTop = 0;
+                document.documentElement.scrollTop = 0;
+            }
+
+            var tablinks = document.getElementsByClassName("link1");
+            var tabcontents = document.getElementsByClassName("titles-contents");
+            function opentab(tabname) {
+                for (tablink of tablinks) {
+                    tablink.classList.remove("active");
+                }
+                for (tabcontent of tabcontents) {
+                    tabcontent.classList.remove("active-tab");
+                }
+                event.currentTarget.classList.add("active");
+                document.getElementById(tabname).classList.add("active-tab");
+            }
+
+
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbxUPqIJVLZxS5_IQzI2KlnQDCI4gIEx1NsaFJ7rvWVKFJOJYLPPpiQPpxvefcIqQHWdKg/exec'
+            const form = document.forms['submit-to-google-sheet']
+            const msg = document.getElementById("msg")
+            form.addEventListener('submit', e => {
+                e.preventDefault()
+                fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                    .then(response => {
+                        msg.innerHTML = "Thank You For Submitting"
+                        setTimeout(function () {
+                            msg.innerHTML = ""
+                        }, 5000)
+                        form.reset()
+                    })
+                    .catch(error => console.error('Error!', error.message))
+            })
+        </script>
+
+</body>
+
+</html>
